@@ -1,0 +1,28 @@
+.head {
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.main {
+    margin-left: 145px;
+}
+
+.box {
+    justify-content: center;
+    display: flex;
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(2,2);
+    transition: 0.5s;
+}
